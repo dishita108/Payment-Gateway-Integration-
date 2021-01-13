@@ -1,0 +1,28 @@
+*{
+      font-family:Century Gothic;
+    }
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .backgroundimage{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/contact.jpeg");
+    width: 100vw;
+    height: 100vh; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position:cover;
+    }
+
+    .contact_area{
+        padding:200px 70px 20px 70px;
+    }
+
+    .backgroundimage h4{
+        color:#e2c436;
+    }
+
+    .backgroundimage i{
+        color:#e2c436;
+    }

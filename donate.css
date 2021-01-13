@@ -1,0 +1,30 @@
+body{
+		background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("images/bg.jpeg");
+		background-position: center;
+		background-repeat: repeat;
+		background-size: cover;
+	}
+	.donateform
+	{
+		width:450px;
+		box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.8);
+		background:#fff;
+		padding:20px;
+		margin:15% auto 0;
+		text-align:center;
+		border-radius: 30px; 
+		opacity:0.6;
+		}
+	.donateform h1
+	{
+		color:#1c8adb;
+	margin-bottom:30px;
+	font-size:23px;
+	}
+	img
+	{
+		width:100px;
+		margin-top:-10px;
+		
+	}
+	

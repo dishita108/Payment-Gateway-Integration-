@@ -1,0 +1,38 @@
+*{
+      font-family:Century Gothic;
+    }
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+body{
+		background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("images/bground1.jpg");
+		background-position: center;
+		background-repeat: repeat;
+		background-size: cover;
+	}
+
+.backgroundimage h1{
+	color: #e2c436;
+	margin:20% 0 2% 0 ;
+}
+
+.backgroundimage p{
+	color:#ffffff;
+	font-size: 20px;
+}
+
+.backgroundimage img{
+	height: 75%;
+	width: 75%;
+	padding: 35% 0 0 0;
+	right: -10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.backgroundimage img:hover{
+	height: 85%;
+	width: 85%;
+	transition: 1s
+}

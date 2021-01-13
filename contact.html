@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="contact.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <script>
+     function validation()
+     {
+      var name=document.getElementById("name").value;
+      var email=document.getElementById("email").value;
+      var subject=document.getElementById("subject").value;
+      var message=document.getElementById("message").value;
+      
+      if(name=="")
+      {
+        alert("Please Enter Name");
+      }
+      else if(email=="")
+      {
+        alert("Please Enter Email Id");
+      }
+      else if(subject=="")
+      {
+        alert("Please Enter subject");
+      }
+      else if(message=="")
+      {
+        alert("Please Write Message");
+      }
+      else 
+      {
+        alert("Message Send Successfully");
+      }
+     }
+     </script>
+  
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        
+          <!--li><a href="#">Contact</a></li-->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li style="font-family:'Brush Script MT', cursive;color:#e2c436;font-size: 40px; text-align: center;">Door-to-the-Future</li>
+          <li><a href="index.html">| Home  </a></li>
+          <li><a href="about.html">About  </a></li>
+          
+          <li><a href="contact.html"> Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="backgroundimage">
+     <section class="contact_area ">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="contact_info">
+                        <div class="info_item">
+                            <i class="fa fa-home"></i>
+                            <h4>Mumbai,Maharashtra</h4>
+              
+                        </div><br>
+                        <div class="info_item">
+                            <i class="fa fa-phone"></i>
+                            <h4>9712384321</h4>
+                     
+                        </div><br>
+                        <div class="info_item">
+                            <i class="fa fa-envelope"></i>
+                            <h4>support@doortothefuture.com</h4>
+                            
+                        </div><br>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <form class="row contact_form" id="contactForm" novalidate="novalidate">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-right">
+                            <button type="submit" value="submit" class="btn primary_btn" onclick="validation()" >Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+  </div>
+  
+  </body>
+</html>
