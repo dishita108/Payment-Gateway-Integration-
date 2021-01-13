@@ -6,8 +6,11 @@ Front-End : HTML,CSS,Bootstrap
 Backend : Payment Gateway using Razorpay
 
 For Democard : 
-Card No.:4111 1111 1111 1111 
+
+Card No.:4111 1111 1111 1111    
+
 CVV:Any
+
 Validity:Any
 
 Website : https://door-to-the-future.000webhostapp.com/
